@@ -6,7 +6,14 @@ const PkmData = () => {
   const location = useLocation();
   const pkmData = location.state ?? {};
 
-  return <div>{pkmData.name}</div>;
+  return (
+    <div>
+      <img
+        src={pkmData.sprites.other["official-artwork"].front_default}
+        alt=""
+      />
+    </div>
+  );
 };
 
 export default PkmData;
