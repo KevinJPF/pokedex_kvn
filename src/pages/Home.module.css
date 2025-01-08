@@ -1,0 +1,112 @@
+.main_container {
+  background-color: var(--overlay-d);
+  border-radius: 4px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.subtitle {
+  font-weight: 200;
+}
+
+.radio_option {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 32px;
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.list_container {
+  background-color: var(--overlay-d);
+  border: 1px solid var(--overlay-l);
+  border-radius: 8px;
+}
+
+.card_container {
+  background-color: var(--overlay-d);
+  color: var(--overlay-d-h);
+  box-shadow: -2px 2px 12px -4px #000;
+  border: 2px solid hsla(var(--type-color));
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.1s ease-in-out;
+}
+
+.card_container:hover {
+  transform: translate(3px, -3px);
+  box-shadow: -5px 5px 14px -4px #000;
+}
+
+.card_container:active {
+  transform: translate(0, 0);
+  box-shadow: -2px 2px 12px -4px #000;
+}
+
+.type_img {
+  max-height: 20px;
+}
+
+.img_pokemon {
+  height: 100px;
+  background-color: hsla(var(--type-color), 0.2);
+  border-bottom: 2px solid var(--overlay-l);
+  transition: 0.1s ease-in-out;
+}
+
+.card_container:hover .img_pokemon {
+  background-color: hsla(var(--type-color), 1);
+}
+
+.img_pokemon2 {
+  height: 100px;
+  background-color: hsla(var(--type-color2), 0.2);
+  border-bottom: 2px solid var(--overlay-l);
+  transition: 0.1s ease-in-out;
+}
+
+.card_container:hover .img_pokemon2 {
+  background-color: hsla(var(--type-color2), 1);
+}
+
+.pkm_img,
+.shiny_icon,
+.sound_icon {
+  position: absolute;
+  padding: 0;
+  top: 0px;
+  transition: 0.2s ease-in-out;
+}
+
+.shiny_icon {
+  filter: drop-shadow(0 0 4px black);
+  width: min-content;
+  top: 8px;
+  left: 8px;
+}
+
+.sound_icon {
+  filter: drop-shadow(0 0 4px black);
+  width: min-content;
+  top: 8px;
+  right: 8px;
+}
+
+.shiny_icon:hover,
+.sound_icon:hover {
+  filter: drop-shadow(0 0 4px white);
+}
+
+.img_shadow {
+  max-height: 96px;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.6));
+}

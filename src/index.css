@@ -1,0 +1,73 @@
+:root {
+  --highlight: #00ffae;
+  --highlight-hover: #00ffcc;
+
+  --overlay-l: #f1f1f1;
+  --overlay-d: #303030;
+
+  --overlay-l-h: #303030;
+  --overlay-d-h: #f1f1f1;
+
+  --font-button: 16px;
+  --font-button-weight: 500;
+
+  --type-grass: 100, 52%, 55%;
+  --type-fire: 25, 84%, 56%;
+  --type-water: 220, 78%, 66%;
+  --type-bug: 65, 45%, 49%;
+  --type-normal: 60, 10%, 59%;
+  --type-electric: 45, 95%, 60%;
+  --type-ice: 180, 46%, 76%;
+  --type-fighting: 0, 64%, 47%;
+  --type-poison: 300, 40%, 44%;
+  --type-ground: 45, 71%, 64%;
+  --type-flying: 240, 57%, 75%;
+  --type-psychic: 340, 88%, 67%;
+  --type-rock: 45, 49%, 47%;
+  --type-ghost: 260, 24%, 49%;
+  --type-dark: 30, 21%, 37%;
+  --type-dragon: 260, 85%, 60%;
+  --type-steel: 240, 20%, 79%;
+  --type-fairy: 340, 73%, 76%;
+}
+
+body {
+  background-color: #1d1d1d;
+  color: #ffffff;
+}
+
+.roboto-light {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: italic;
+}
